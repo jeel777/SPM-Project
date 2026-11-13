@@ -1,0 +1,8 @@
+node_modules
+# Keep environment variables out of version control
+.env
+.DS_Store
+
+# Ignore uploaded media files but keep directory
+uploads/*
+!uploads/.gitkeep
