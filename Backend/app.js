@@ -141,7 +141,7 @@ app.get("/metrics", async (_req, res) => {
 });
 
 app.get("/", (_req, res) => {
-  res.send("Welcome to the API");
+  res.send("Welcome to My Basket");
 });
 
 export default app;
